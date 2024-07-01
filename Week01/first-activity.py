@@ -1,0 +1,13 @@
+print('Please insert the following information')
+first_name = input('First name: ')
+last_name = input('Last name: ')
+email_address = input('Email address: ')
+phone_number = input('Phone number: ')
+job_title = input('Job title: ')
+id_number = input('ID number: ')
+hair_color = input('Hair color: ')
+eyes_color = input('Eyes color: ')
+training = input('Training: ')
+birth_month = input('Birth month: ')
+
+print(f'{last_name.upper()}, {first_name} \n{job_title.capitalize()} \nID:{id_number}\n\n{email_address.lower()}\n{phone_number} \n\nHair: {hair_color}   Eyes: {eyes_color}\nMonth: {birth_month}   Training: {training}')
